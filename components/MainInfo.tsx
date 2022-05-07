@@ -8,7 +8,7 @@ export function MainInfo() {
       bgImage="url(main-info-bg.png)"
       bgSize="cover"
       w="100%"
-      h="80vh"
+      h={["95vh", "80vh"]}
       align="center"
       justify="center"
       flexDirection="column"
