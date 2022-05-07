@@ -1,4 +1,4 @@
-import { Container, Flex, Heading, Image, Text,SimpleGrid } from "@chakra-ui/react";
+import { Container, Flex, Heading, Image, Text,SimpleGrid, } from "@chakra-ui/react";
 import {WhatToExpectCard} from "../components/WhatToExpectCard";
 import { HiTerminal, HiBookOpen, HiTrendingUp,HiUserGroup} from "react-icons/hi";
 export function WhatToExpectSection() {
@@ -16,9 +16,8 @@ export function WhatToExpectSection() {
           justo. Donec consequat velit sed ultricies lobortis.
         </Text>
 
-        <SimpleGrid columns={2} spacingY={10} spacingX={28}>
-
-          <WhatToExpectCard
+        <SimpleGrid columns={[1,1,1,2]}  spacingY={5} spacingX={[18]}>
+          <WhatToExpectCard 
             BgColor="brand.yellowOpacity"
             IconColor="brand.yellow"
             icon={HiTerminal}
@@ -49,11 +48,10 @@ export function WhatToExpectSection() {
             title="Comunidades"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           />
-
         </SimpleGrid>
 
       </Container>
-      <Image src="what-to-expect.png" display={["none", "none", "block"]} />
+      <Image src="what-to-expect.png" display={["none", "none","none", "none","block"]} maxWidth={['400px']} />
     </Flex>
   );
 
