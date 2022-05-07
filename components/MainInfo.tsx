@@ -2,6 +2,8 @@ import { Flex, Heading, Text } from "@chakra-ui/react";
 import { HiCalendar, HiLocationMarker, HiMail } from "react-icons/hi";
 import { Button } from "./Button";
 import { HorizontalInfo } from "./HorizontalInfo";
+import { NavBar } from "./NavBar";
+
 export function MainInfo() {
   return (
     <Flex
@@ -14,6 +16,7 @@ export function MainInfo() {
       flexDirection="column"
       gap="8"
     >
+      <NavBar justifySelf='start' />
       <Heading color="white" textAlign="center">
         Venha conhecer a <Text color="brand.green">Wonder Tech 2022</Text>
       </Heading>

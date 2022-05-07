@@ -3,7 +3,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { EventGoalSection } from '../components/EventGoalSection'
 import { MainInfo } from '../components/MainInfo'
-import { SponsorsSection } from '../components/SponsorsSection'
+import { SponsorsSection } from '../components/SponsorsSection';
+import { NavBar } from '../components/NavBar';
 
 const Home: NextPage = () => {
   return (
