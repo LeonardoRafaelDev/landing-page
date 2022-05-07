@@ -5,6 +5,7 @@ import { EventGoalSection } from '../components/EventGoalSection'
 import { Footer } from '../components/Footer'
 import { MainInfo } from '../components/MainInfo'
 import { SponsorsSection } from '../components/SponsorsSection'
+import { SupportEventSection } from '../components/SupportEventSection'
 import { WhatToExpectSection } from '../components/WhatToExpectSection'
 
 const Home: NextPage = () => {
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <SponsorsSection />
       <EventGoalSection />
       <WhatToExpectSection/>
+      <SupportEventSection />
       <Footer />  
     </Flex>
   )
