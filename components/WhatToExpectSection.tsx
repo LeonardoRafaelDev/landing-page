@@ -11,7 +11,7 @@ export function WhatToExpectSection() {
           O que você vai encontrar?
         </Heading>
 
-        <Text>
+        <Text mb="4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id nisl
           justo. Donec consequat velit sed ultricies lobortis.
         </Text>
