@@ -4,6 +4,7 @@ import Head from 'next/head'
 import { EventGoalSection } from '../components/EventGoalSection'
 import { MainInfo } from '../components/MainInfo'
 import { SponsorsSection } from '../components/SponsorsSection'
+import { WhatToExpectSection } from '../components/WhatToExpectSection'
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,8 @@ const Home: NextPage = () => {
       </Head>
       <MainInfo />
       <SponsorsSection />
-      <EventGoalSection />  
+      <EventGoalSection />
+      <WhatToExpectSection/>
     </Flex>
   )
 }
