@@ -4,8 +4,11 @@ export const theme = extendTheme({
   colors: {
     brand: {
       "yellow": "#FFDE38",
+      "yellowOpacity": "#FFDE381A",
       "red": "#FF3438",
+      "redOpacity": "#F303081A",
       "blue": "#529BFC",
+      "blueOpacity": "#529BFC1A",
       "green": "#74FF38",
       "greenOpacity": "#74FF381A",
       "white": "#FFFFFF",
