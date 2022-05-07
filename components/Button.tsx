@@ -1,6 +1,6 @@
-import { Link } from "@chakra-ui/react";
+import { Link, LinkProps } from "@chakra-ui/react";
 
-interface ButtonProps {
+interface ButtonProps extends LinkProps {
   href: string;
   target?: string;
   children: React.ReactNode;

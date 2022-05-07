@@ -2,6 +2,7 @@ import { Flex } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { EventGoalSection } from '../components/EventGoalSection'
+import { Footer } from '../components/Footer'
 import { MainInfo } from '../components/MainInfo'
 import { SponsorsSection } from '../components/SponsorsSection'
 import { WhatToExpectSection } from '../components/WhatToExpectSection'
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <SponsorsSection />
       <EventGoalSection />
       <WhatToExpectSection/>
+      <Footer />  
     </Flex>
   )
 }
