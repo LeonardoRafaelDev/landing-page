@@ -6,6 +6,7 @@ import { MainInfo } from '../components/MainInfo'
 import { SponsorsSection } from '../components/SponsorsSection';
 import { NavBar } from '../components/NavBar';
 import { CommunitiesSection } from '../components/CommunitiesSection'
+import { SpeakersSection } from '../components/SpeakersSection'
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +17,8 @@ const Home: NextPage = () => {
       <MainInfo />
       <SponsorsSection />
       <EventGoalSection />
-      <CommunitiesSection />  
+      <CommunitiesSection />
+      <SpeakersSection />
     </Flex>
   )
 }
