@@ -110,21 +110,5 @@ export const communities = [
       github: ''
     },
     site_url: 'https://feministech.github.io/',
-  },
-  {
-    id: 4,
-    name: 'Feministech',
-    logo: {
-      url: 'comunidades/feministech.png',
-      alt: 'todo'
-    },
-    description: 'A Feministech é um grupo de pessoas que se identificam no feminino e não-bináries que produzem, consumem e compartilham conteúdo sobre tecnologia, em um ambiente diverso e inclusivo.',
-    socials: {
-      twitter: 'https://twitter.com/feminis_tech/',
-      instagram: 'https://www.instagram.com/feminis_cat/',
-      discord: '',
-      github: ''
-    },
-    site_url: 'https://feministech.github.io/',
-  },
+  }
 ]
