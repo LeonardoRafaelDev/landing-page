@@ -1,8 +1,15 @@
-import { Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Flex, IconButton, List } from "@chakra-ui/react";
-import { MdClose } from 'react-icons/md'
-import { NavItem } from './NavItem'
-
-export function NavMenu(props:any) {
+import { Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Flex, IconButton, List } from "@chakra-ui/react";
+import { MdClose } from 'react-icons/md';
+import { NavItem } from './NavItem';
+const navItems = [
+    { href: '/', label: 'Início' },
+    { href: '#evento', label: 'O evento' },
+    { href: '#comunidades', label: 'Comunidades' },
+    { href: '#convidados', label: 'Convidados' },
+    { href: '#apoiar-evento', label: 'Apoie o evento' },
+    { href: '#sobre-mtst', label: 'Sobre o MTST' }
+]
+export function NavMenu(props: any) {
     return (
         <>
             <Drawer onClose={props.onClose} isOpen={props.isOpen}>
@@ -13,7 +20,7 @@ export function NavMenu(props:any) {
                             <IconButton
                                 aria-label="Fechar menu"
                                 background="none"
-                                as={MdClose} 
+                                as={MdClose}
                                 color="brand.white"
                                 boxSize="2.5rem"
                                 mt="1rem"
@@ -23,12 +30,9 @@ export function NavMenu(props:any) {
                     </Flex>
                     <DrawerBody>
                         <List>
-                            <NavItem label="Início" href={{ href: '/' }} active={false} clickEvent={props.onClose} />
-                            <NavItem label="O evento" href={{ href: '/' }} active={false} />
-                            <NavItem label="Comunidades" href={{ href: '/' }} active={false} />
-                            <NavItem label="Convidados" href={{ href: '/' }} active={false} />
-                            <NavItem label="Apoie o evento" href={{ href: '/' }} active={false} />
-                            <NavItem label="Sobre o MTST" href={{ href: '/' }} active={false} />
+                            {navItems.map((item) => {
+                                return <NavItem active={false} href={item.href} label={item.label} key={item.label} clickEvent={props.onClose} />
+                            })}
                         </List>
                     </DrawerBody>
                 </DrawerContent>
