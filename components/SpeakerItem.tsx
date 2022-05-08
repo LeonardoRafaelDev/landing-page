@@ -16,7 +16,19 @@ export function SpeakerItem( { profilePic, name, role, description } : SpeakerIt
     ]
 
     return (
-        <Flex bg="brand.black" maxW="322px" flexDir="column" paddingY="32px" paddingX="16px" marginLeft={{ base: '12px', md: '50px' }} marginBottom={{ base: '110px', md: '0' }} align="center">
+        <Flex 
+            bg="brand.black" 
+            maxW="322px"
+            marginY="30px"
+            flexDir="column" 
+            paddingY="32px" 
+            paddingX="16px" 
+            marginLeft={{ base: '12px', md: '50px' }} 
+            marginBottom={{ base: '110px', md: '0' }} 
+            align="center"
+            transition="all .3s ease"
+            _hover={{ transform: 'translateY(-15px)', boxShadow: '-5px -5px 40px rgba(115, 255, 56, .1)' }}
+        >
             <Image 
                 w={{ base: '50px', md: '100px'}}
                 h={{ base: '50px', md: '100px'}} 
