@@ -47,7 +47,7 @@ export function SponsorsCarousel() {
             <Sponsor href="https://linuxtips.io/" logo="comunidades/linuxtips.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://https://getup.io/" logo="patrocinadores/getup.jpg" />
+            <Sponsor href="https://getup.io/" logo="patrocinadores/getup.jpg" />
           </SwiperSlide>
         </Swiper>
       </Flex>
