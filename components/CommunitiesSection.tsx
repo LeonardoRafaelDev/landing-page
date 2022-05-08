@@ -1,10 +1,10 @@
 import { Box, Container, Flex, Heading, Text } from '@chakra-ui/react';
 import SwiperCore, { Navigation } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { CommunitySwiperItem } from './CommunitySwiperItem';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 SwiperCore.use([Navigation]);
 
@@ -13,6 +13,7 @@ export function CommunitiesSection() {
         <Flex
             bg="brand.background"
             paddingY={{ base: '30px', md: '160px'}}
+            id="comunidades"
         >
             <Container maxW="1300px" paddingX={{md: '0'}}>
                 <Flex

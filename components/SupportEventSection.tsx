@@ -6,6 +6,7 @@ export function SupportEventSection() {
     <Flex
       bgColor="brand.background"
       py="2"
+      id="apoiar-evento"
     >
       <Image src="support-event.png" display={["none", "none", "block"]} />
       <Container maxW={850} color="brand.gray" py="2">

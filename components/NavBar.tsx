@@ -1,13 +1,12 @@
 import { Flex, IconButton, List, useDisclosure } from '@chakra-ui/react';
-import { useState } from 'react';
+import { HiMenu } from 'react-icons/hi';
 import { NavItem } from './NavItem';
-import { HiMenu } from 'react-icons/hi'
 import { NavMenu } from './NavMenu';
 
 export function NavBar({...props}) {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const navItems = [
-        { href: '#', label: 'Início' },
+        { href: '/', label: 'Início' },
         { href: '#evento', label: 'O evento' },
         { href: '#comunidades', label: 'Comunidades' },
         { href: '#convidados', label: 'Convidados' },
@@ -23,7 +22,7 @@ export function NavBar({...props}) {
         >
             <List display={{ base: 'none', md: 'block' }}>
                 {navItems.map((item) => {
-                    return <NavItem active={true} href={{ href: item.href }} label={item.label} key={item.label} />
+                    return <NavItem active={false} href={item.href} label={item.label} key={item.label} />
                 })}
             </List>
             <IconButton
