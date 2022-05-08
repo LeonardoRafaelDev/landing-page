@@ -11,8 +11,6 @@ export function SpeakersSection() {
                     <Heading as="h4" fontSize="2xl" color="brand.green" mt="2rem">Convidados</Heading>
                     <Box w="100%" mb="80px" mt="1rem">
                         <Swiper
-                            onSlideChange={() => console.log('slide change')}
-                            onSwiper={(swiper) => console.log(swiper)}
                             navigation
                             breakpoints={{
                                 320: {

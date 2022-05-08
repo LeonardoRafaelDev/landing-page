@@ -27,8 +27,6 @@ export function CommunitiesSection() {
                     </Box>
                     <Box w="100%" my="30px">
                         <Swiper
-                            onSlideChange={() => console.log('slide change')}
-                            onSwiper={(swiper) => console.log(swiper)}
                             navigation
                             breakpoints={{
                                 0: {
