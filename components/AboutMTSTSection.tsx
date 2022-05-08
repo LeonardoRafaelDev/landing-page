@@ -19,9 +19,10 @@ export function AboutMTSTSection() {
         <Image src="pix-mtst.jpg"
           w="120px"
           h="120px"
+          alt="Imagem de um QRCode que aponta para o PIX da MTST"
         />
       </Container>
-      <Image src="About-MTST.png" display={["none", "none", "block"]} />
+      <Image src="About-MTST.png" display={["none", "none", "block"]} alt="Imagem com a bandeira do MTST sendo balançada"/>
     </Flex>
 
   );

@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <Flex direction="column">
       <Head>
-        <title>Wondertech 2022 | 13 de maio de 2022</title>
+        <title>WonderTech - Encontro de Comunidades</title>
       </Head>
       <MainInfo />
       <SponsorsSection />

@@ -20,34 +20,34 @@ export function SponsorsCarousel() {
           }}
         >
           <SwiperSlide>
-            <Sponsor href="https://alura.com.br" logo="patrocinadores/alura.png" />
+            <Sponsor href="https://alura.com.br" logo="patrocinadores/alura.png" alt="Alura logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://ezdevs.com.br/" logo="patrocinadores/ez.png" />
+            <Sponsor href="https://ezdevs.com.br/" logo="patrocinadores/ez.png" alt="Ez logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://codamos.com.br" logo="patrocinadores/codamos.png" />
+            <Sponsor href="https://codamos.com.br" logo="patrocinadores/codamos.png" alt="Codamos logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://twitter.com/codigofalado" logo="patrocinadores/codigo-falado.png" />
+            <Sponsor href="https://twitter.com/codigofalado" logo="patrocinadores/codigo-falado.png" alt="Codigo falado logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://ideen.tech/" logo="patrocinadores/ideen.jpg" />
+            <Sponsor href="https://ideen.tech/" logo="patrocinadores/ideen.jpg" alt="Ideen logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://zup.com.br" logo="patrocinadores/zup.jpg" />
+            <Sponsor href="https://zup.com.br" logo="patrocinadores/zup.jpg" alt="Zup logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://www.lambda3.com.br/" logo="patrocinadores/lambda.jpg" />
+            <Sponsor href="https://www.lambda3.com.br/" logo="patrocinadores/lambda.jpg" alt="Lambda3 logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://vindi.com.br/" logo="patrocinadores/vindi.jpg" />
+            <Sponsor href="https://vindi.com.br/" logo="patrocinadores/vindi.jpg" alt="Vindi logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://linuxtips.io/" logo="comunidades/linuxtips.jpg" />
+            <Sponsor href="https://linuxtips.io/" logo="comunidades/linuxtips.jpg" alt="Linuxtips logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://getup.io/" logo="patrocinadores/getup.jpg" />
+            <Sponsor href="https://getup.io/" logo="patrocinadores/getup.jpg" alt="Getup logo"/>
           </SwiperSlide>
         </Swiper>
       </Flex>

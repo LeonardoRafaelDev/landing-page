@@ -42,7 +42,7 @@ export function WhatToExpectSection() {
         </SimpleGrid>
 
       </Container>
-      <Image src="what-to-expect.png" display={["none", "none","none", "none","block"]} maxWidth={['400px']} />
+      <Image src="what-to-expect.png" display={["none", "none","none", "none","block"]} maxWidth={['400px']} alt="Imagem com algumas pessoas numa espécie de roda de conversa"/>
     </Flex>
   );
 
