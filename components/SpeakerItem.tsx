@@ -1,5 +1,4 @@
-import { Flex, Heading, IconButton, Text, Image, Box } from "@chakra-ui/react"
-import Link from "next/link"
+import { Flex, Heading, IconButton, Text, Image, Box, Link } from "@chakra-ui/react"
 import { BsTwitter, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 interface Socials {
@@ -58,7 +57,7 @@ export function SpeakerItem( { profilePic, name, role, description, socials } : 
             <Flex w="70%" justify="space-between" align="center">
                 {socialList.map((social) => {
                     return <>
-                        <Link href={social.href}>
+                        <Link href={social.href} isExternal>
                             <IconButton key={social.id} cursor="pointer" color="brand.white" transition="color .3s ease" bg="none" _hover={{ bg: 'none', color: 'brand.green' }} as={social.name} href={social.href} aria-label={"test"} boxSize="32px" background='none' />
                         </Link>
                     </>
