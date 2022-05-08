@@ -3,7 +3,7 @@ import { SponsorsCarousel } from "./SponsorsCarousel";
 
 export function SponsorsSection() {
   return (
-    <Flex bgColor="brand.background" direction="column" gap="8">
+    <Flex bgColor="brand.background" direction="column" gap="8" py="8">
       <Heading textAlign="center" as="h2" fontSize="xl" color="brand.green">Apoiadores</Heading>
       <Text color="brand.white" fontSize="2xl" textAlign="center" fontWeight="bold">
         Com a ajuda deles que o evento será realizado

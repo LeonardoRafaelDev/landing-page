@@ -1,10 +1,10 @@
-import { Box, Container, Flex, Heading, Text } from '@chakra-ui/react';
+import { Box, Container, Flex, Heading } from '@chakra-ui/react';
 import SwiperCore, { Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { CommunitiesItem } from './CommunitiesItem';
 import { communities } from '../data/communities';
+import { CommunitiesItem } from './CommunitiesItem';
 
 
 SwiperCore.use([Navigation]);
@@ -24,10 +24,6 @@ export function CommunitiesSection() {
                 >
                     <Box w="100%" paddingX="1rem">
                         <Heading as="h4" fontSize="2xl" textAlign="center" color="brand.green">Comunidades</Heading>
-                        <Heading paddingTop="2rem" textAlign="center" fontSize="3xl" color="brand.white">Lorem Ipsum dolor Sit amet consectetur</Heading>
-                        <Flex justify="center">
-                            <Text paddingTop="1rem" w={{ base: '100%', md: '60%'}} textAlign="center" color="brand.gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet convallis risus, eget sagittis tellus convallis ac. In vel libero a libero tincidunt suscipit. </Text>
-                        </Flex>
                     </Box>
                     <Box w="100%" my="30px">
                         <Swiper
