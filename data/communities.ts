@@ -2,7 +2,10 @@ export const communities = [
   {
     id: 1,
     name: 'He4rt Developers',
-    logo: 'comunidades/he4rt.png',
+    logo: {
+      url: 'comunidades/he4rt.png',
+      alt: 'todo'
+    },
     description: 'Aqui é o lugar aonde mentes extraordinárias se encontram com o objetivo de alcançar milhares de pessoas com o poder da tecnologia. Aqui mais do que participar, você vai contribuir.',
     socials: {
       twitter: 'https://twitter.com/He4rtDevs',
@@ -15,7 +18,10 @@ export const communities = [
   {
     id: 2,
     name: 'perifaCode',
-    logo: 'comunidades/perifacode.jpeg',
+    logo: {
+      url: 'comunidades/perifacode.jpeg',
+      alt: 'todo'
+    },
     description: 'A perifaCode é uma comunidade de tecnologia que tem com objetivo “desgourmetizar” o mercado digital, preenchido, em sua maioria, por um estereótipo ao qual precisa ser mudado para ser mais inclusivo e com esse propósito a comunidade foi criada em 2019 para capacitar, discutir e fazer ouvir a voz da periferia dentro do mercado digital.',
     socials: {
       twitter: 'https://twitter.com/perifacode',
@@ -28,7 +34,10 @@ export const communities = [
   {
     id: 3,
     name: 'Linuxtips',
-    logo: 'comunidades/linuxtips.png',
+    logo: {
+      url: 'comunidades/linuxtips.png',
+      alt: 'todo'
+    },
     description: 'Canal do Youtube criado para compartilhar o conhecimento adquirido ao longo de +16 anos de experiência. Vamos falar sobre Linux, Docker, Kubernetes, DevOps, Infra-ágil, automação e muito mais!',
     socials: {
       twitter: 'https://twitter.com/LINUXtipsBR',
@@ -41,7 +50,10 @@ export const communities = [
   {
     id: 4,
     name: 'Feministech',
-    logo: 'comunidades/feministech.png',
+    logo: {
+      url: 'comunidades/feministech.png',
+      alt: 'todo'
+    },
     description: 'A Feministech é um grupo de pessoas que se identificam no feminino e não-bináries que produzem, consumem e compartilham conteúdo sobre tecnologia, em um ambiente diverso e inclusivo.',
     socials: {
       twitter: 'https://twitter.com/feminis_tech/',
@@ -54,7 +66,10 @@ export const communities = [
   {
     id: 5,
     name: 'Wakanda Streamers',
-    logo: 'comunidades/wakanda.png',
+    logo: {
+      url: 'comunidades/wakanda.png',
+      alt: 'todo'
+    },
     description: 'Iniciativa voltada a reunir, integrar e impulsionar a comunidade preta.',
     socials: {
       twitter: 'https://twitter.com/WakandaStreamer',
@@ -67,7 +82,10 @@ export const communities = [
   {
     id: 6,
     name: 'Beestrong Code',
-    logo: 'comunidades/beestrong.png',
+    logo: {
+      url: 'comunidades/beestrong.png',
+      alt: 'todo'
+    },
     description: 'Comunidade Tech sem fins lucrativos exclusiva e inclusiva. Trabalhando em conjunto para conquistar nosso espaço.',
     socials: {
       twitter: 'https://twitter.com/BeeStrongcode',
@@ -80,7 +98,10 @@ export const communities = [
   {
     id: 7,
     name: 'Núcleo de Tecnologia do MTST',
-    logo: 'comunidades/mtst.png',
+    logo: {
+      url: 'comunidades/mtst.png',
+      alt: 'todo'
+    },
     description: 'Somos um coletivo de militantes sociais que calharam de também trabalhar com tecnologia. Contribuimos com soluções que ajudem a impulsionar a luta cotidiana, fazê-la mais forte e o futuro cada vez mais promissor de quem trabalha.',
     socials: {
       twitter: 'https://twitter.com/mtst',
