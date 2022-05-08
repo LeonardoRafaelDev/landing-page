@@ -1,4 +1,4 @@
-import { Flex, Heading, IconButton, Text, Image } from "@chakra-ui/react"
+import { Flex, Heading, IconButton, Text, Image, Box } from "@chakra-ui/react"
 import { BsTwitter, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 interface SpeakerItem {
@@ -10,9 +10,9 @@ interface SpeakerItem {
 
 export function SpeakerItem( { profilePic, name, role, description } : SpeakerItem) {
     const socialList = [
-        { name: BsTwitter, href: "" },
-        { name: BsInstagram, href: "" },
-        { name: BsLinkedin, href: "" }
+        { name: BsTwitter, href: "", id: 1 },
+        { name: BsInstagram, href: "", id: 2 },
+        { name: BsLinkedin, href: "", id: 3 }
     ]
 
     return (
@@ -29,7 +29,9 @@ export function SpeakerItem( { profilePic, name, role, description } : SpeakerIt
             <Text color="brand.gray" marginY="32px" textAlign='center'>{ description }</Text>
             <Flex w="70%" justify="space-between" align="center">
                 {socialList.map((social) => {
-                    return <IconButton color="brand.white" bg="none" as={social.name} href={social.href} aria-label={"test"} key={social.name} boxSize="32px" background='none' />
+                    return <>
+                        <IconButton key={social.id} color="brand.white" bg="none" _hover={{ bg: 'none' }} as={social.name} href={social.href} aria-label={"test"} boxSize="32px" background='none' />
+                    </>
                 })}
             </Flex>
         </Flex>
