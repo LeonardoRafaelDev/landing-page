@@ -6,10 +6,8 @@ import { CommunitiesSection } from '../components/CommunitiesSection'
 import { EventGoalSection } from '../components/EventGoalSection'
 import { Footer } from '../components/Footer'
 import { MainInfo } from '../components/MainInfo'
-import { SponsorsSection } from '../components/SponsorsSection';
-import { NavBar } from '../components/NavBar';
-import { CommunitiesSection } from '../components/CommunitiesSection'
 import { SpeakersSection } from '../components/SpeakersSection'
+import { SponsorsSection } from '../components/SponsorsSection'
 import { SupportEventSection } from '../components/SupportEventSection'
 import { SupportMTST } from '../components/SupportMTST'
 import { WhatToExpectSection } from '../components/WhatToExpectSection'
