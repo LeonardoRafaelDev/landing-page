@@ -4,7 +4,7 @@ export function AboutMTSTSection() {
             <Flex
             bgColor="brand.background"
           >
-            <Container maxW={850} color="brand.gray" py="8">
+            <Container maxW={850} color="brand.gray" pt="8">
               <Heading as="h2" fontSize="3xl" color="brand.green" mb="4">Sobre o MTST</Heading>
               <Text color="brand.white" fontWeight="semibold">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.

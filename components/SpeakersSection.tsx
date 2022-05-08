@@ -12,7 +12,7 @@ interface SpeakerItem {
 export function SpeakersSection() {
     return (
         <Flex bg="brand.background">
-            <Container maxW="1300px">
+            <Container maxW="1300px" pt="6">
                 <Flex flexDir="column" justify="center" align="center">
                     <Heading as="h4" fontSize="2xl" color="brand.green" marginBottom="32px">Convidados</Heading>
                     <Heading as="h1" fontSize="4xl" textAlign="center" color="brand.white" marginBottom="16px">Lorem Ipsum dolor Sit amet consectetur</Heading>

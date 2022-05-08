@@ -5,7 +5,7 @@ export function WhatToExpectSection() {
   return (
     <Flex bgColor="brand.background">
 
-      <Container maxW={800} color="brand.gray" py="8">
+      <Container maxW={800} color="brand.gray" py="1">
 
         <Heading as="h2" fontSize={["xl","xl","3xl"]} color="brand.green" mb="4">
           O que você vai encontrar?

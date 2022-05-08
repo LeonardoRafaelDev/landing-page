@@ -5,10 +5,10 @@ export function SupportEventSection() {
   return (
     <Flex
       bgColor="brand.background"
-      py="32"
+      py="2"
     >
       <Image src="support-event.png" display={["none", "none", "block"]} />
-      <Container maxW={850} color="brand.gray" py="8">
+      <Container maxW={850} color="brand.gray" py="2">
         <Heading as="h2" fontSize="xl" color="brand.green" mb="4">Apoie o evento</Heading>
         <Text>
           O evento é sem fins lucrativos, todo montante doado será utilizado para a alimentação dos participantes e brindes e qualquer quantia que sobrar será revertido em doação para o <Link href="https://nucleodetecnologia.com.br/" target="_blank" color="brand.green">núcleo de Tecnologia do MTST.</Link> Qualquer quantia é bem vinda, tanto de pessoa física, quanto empresas.
