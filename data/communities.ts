@@ -16,7 +16,7 @@ export const communities = [
     id: 2,
     name: 'perifaCode',
     logo: 'comunidades/perifacode.jpeg',
-    description: 'perifaCode é uma comunidade de desenvolvedores que se reunem para compartilhar conhecimento e experiências.',
+    description: 'A perifaCode é uma comunidade de tecnologia que tem com objetivo “desgourmetizar” o mercado digital, preenchido, em sua maioria, por um estereótipo ao qual precisa ser mudado para ser mais inclusivo e com esse propósito a comunidade foi criada em 2019 para capacitar, discutir e fazer ouvir a voz da periferia dentro do mercado digital.',
     socials: {
       twitter: 'https://twitter.com/perifacode',
       instagram: 'https://www.instagram.com/perifacode/',
@@ -68,7 +68,7 @@ export const communities = [
     id: 6,
     name: 'Beestrong Code',
     logo: 'comunidades/beestrong.png',
-    description: '',
+    description: 'Comunidade Tech sem fins lucrativos exclusiva e inclusiva. Trabalhando em conjunto para conquistar nosso espaço.',
     socials: {
       twitter: 'https://twitter.com/BeeStrongcode',
       instagram: 'https://www.instagram.com/beestrongcode/',
