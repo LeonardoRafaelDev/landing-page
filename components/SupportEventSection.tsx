@@ -8,7 +8,7 @@ export function SupportEventSection() {
       py="12"
       id="apoiar-evento"
     >
-      <Image src="support-event.png" display={["none", "none", "block"]} />
+      <Image src="support-event.png" display={["none", "none", "block"]} alt="Imagem com diversas pessoas comendo, numa espécie de coffee break"/>
       <Container maxW={850} color="brand.gray" py="2">
         <Heading as="h2" fontSize="xl" color="brand.green" mb="4">Apoie o evento</Heading>
         <Text>

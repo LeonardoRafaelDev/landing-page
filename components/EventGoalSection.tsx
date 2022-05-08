@@ -15,7 +15,7 @@ export function EventGoalSection() {
           O primeiro Wonder Tech será focado nas comunidades de tecnologia, constituído de mesas de conversa, onde os membros envolvidos contarão suas histórias, experiências e resiliência. A intenção do encontro, é reunir histórias sobre pessoas diversas e mostrar como prosperaram em um mundo que não é adaptado a todos. Inspirando as pessoas com histórias reais e demonstrando que há espaço e apoio para a inclusão de todos.
         </Text>
       </Container>
-      <Image src="event-goal.png" display={["none", "none", "block"]} />
+      <Image src="event-goal.png" display={["none", "none", "block"]} alt="Imagem com um telão e diversas pessoas assistindo à ele" />
     </Flex>
   )
 }

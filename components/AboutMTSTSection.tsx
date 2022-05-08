@@ -4,6 +4,7 @@ export function AboutMTSTSection() {
     <Flex
       bgColor="brand.background"
       id="sobre-mtst"
+      pb="4rem"
     >
       <Container maxW={850} color="brand.gray" pt="8">
         <Heading as="h2" fontSize="3xl" color="brand.green" mb="4">Sobre o MTST</Heading>
@@ -14,8 +15,14 @@ export function AboutMTSTSection() {
         <Text mt="4">
           Conheça mais sobre as iniciativas do núcleo clicando <Link href="https://nucleodetecnologia.com.br/#portfolio" color="brand.green" isExternal>aqui </Link>.
         </Text>
+        <Heading as="h2" fontSize="xl" color="brand.green" my="8">Apoie agora mesmo</Heading>
+        <Image src="pix-mtst.jpg"
+          w="120px"
+          h="120px"
+          alt="Imagem de um QRCode que aponta para o PIX da MTST"
+        />
       </Container>
-      <Image src="About-MTST.png" display={["none", "none", "block"]} />
+      <Image src="About-MTST.png" display={["none", "none", "block"]} alt="Imagem com a bandeira do MTST sendo balançada"/>
     </Flex>
 
   );

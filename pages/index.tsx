@@ -9,13 +9,12 @@ import { MainInfo } from '../components/MainInfo'
 import { SpeakersSection } from '../components/SpeakersSection'
 import { SponsorsSection } from '../components/SponsorsSection'
 import { SupportEventSection } from '../components/SupportEventSection'
-import { SupportMTST } from '../components/SupportMTST'
 import { WhatToExpectSection } from '../components/WhatToExpectSection'
 const Home: NextPage = () => {
   return (
     <Flex direction="column">
       <Head>
-        <title>Wondertech 2022 | 13 de maio de 2022</title>
+        <title>WonderTech - Encontro de Comunidades</title>
       </Head>
       <MainInfo />
       <SponsorsSection />
@@ -25,7 +24,6 @@ const Home: NextPage = () => {
       <SpeakersSection />
       <SupportEventSection />
       <AboutMTSTSection/>
-      <SupportMTST />
       <Footer />  
     </Flex>
   )

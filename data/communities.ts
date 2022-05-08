@@ -49,22 +49,6 @@ export const communities = [
   },
   {
     id: 4,
-    name: 'Feministech',
-    logo: {
-      url: 'comunidades/feministech.png',
-      alt: 'todo'
-    },
-    description: 'A Feministech é um grupo de pessoas que se identificam no feminino e não-bináries que produzem, consumem e compartilham conteúdo sobre tecnologia, em um ambiente diverso e inclusivo.',
-    socials: {
-      twitter: 'https://twitter.com/feminis_tech/',
-      instagram: 'https://www.instagram.com/feminis_cat/',
-      discord: '',
-      github: ''
-    },
-    site_url: 'https://feministech.github.io/',
-  },
-  {
-    id: 5,
     name: 'Wakanda Streamers',
     logo: {
       url: 'comunidades/wakanda.png',
@@ -80,7 +64,7 @@ export const communities = [
     site_url: 'https://www.wakandastreamers.com.br/',
   },
   {
-    id: 6,
+    id: 5,
     name: 'Beestrong Code',
     logo: {
       url: 'comunidades/beestrong.png',
@@ -96,7 +80,7 @@ export const communities = [
     site_url: 'https://linktr.ee/beestrongcode',
   },
   {
-    id: 7,
+    id: 6,
     name: 'Núcleo de Tecnologia do MTST',
     logo: {
       url: 'comunidades/mtst.png',
@@ -110,5 +94,21 @@ export const communities = [
       github: ''
     },
     site_url: 'https://www.nucleodetecnologia.com.br/',
+  },
+  {
+    id: 7,
+    name: 'Feministech',
+    logo: {
+      url: 'comunidades/feministech.png',
+      alt: 'todo'
+    },
+    description: 'A Feministech é um grupo de pessoas que se identificam no feminino e não-bináries que produzem, consumem e compartilham conteúdo sobre tecnologia, em um ambiente diverso e inclusivo.',
+    socials: {
+      twitter: 'https://twitter.com/feminis_tech/',
+      instagram: 'https://www.instagram.com/feminis_cat/',
+      discord: '',
+      github: ''
+    },
+    site_url: 'https://feministech.github.io/',
   }
 ]
