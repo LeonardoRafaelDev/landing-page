@@ -6,6 +6,7 @@ export const speakers = [
     city: 'São Paulo',
     state: 'SP',
     role: 'Front-end Developer',
+    picture: 'participantes/anne.jpeg',
     socials: {
       twitter: 'https://twitter.com/annerland',
       instagram: 'https://instagram.com/annerland',
@@ -20,6 +21,7 @@ export const speakers = [
     city: 'Curitiba',
     state: 'PR',
     role: 'Product Manager',
+    picture: 'participantes/isabella.jpeg',
     socials: {
       twitter: 'http://twitter.com/isahermanx',
       instagram: 'http://instagram.com/isabellaherman',
@@ -34,11 +36,13 @@ export const speakers = [
     age: 28,
     city: 'Palhoça',
     state: 'SC',
+    picture: 'participantes/leticia-coelho.jpeg',
     socials: {
       twitter: 'https://twitter.com/EngineerRabbit',
       instagram: 'http://instagram.com/isabellaherman',
       linkedin: 'https://www.linkedin.com/in/anna-campelo-559606152'
     },
+    bio: 'Eu sou uma Engenheira de Software por atuação e Engenheira de telecomunicações por formação. Sou apaixonada pelo universo da tecnologia, inovação e criação de produtos que geram qualidade de vida para as pessoas. Trabalho ativamente nas comunidades tech, divulgando e criando conteúdos simplificados para facilitar e incentivar a entrada de novos integrantes para a área. Isso tudo, porque eu realmente acredito que um bom futuro depende de tecnologia e educação.'
   },
   {
     id: 4,
@@ -46,6 +50,7 @@ export const speakers = [
     age: 37,
     role: 'Head of Technology',
     bio: 'Dev e Head de tecnologia com mais de 14 anos de experiência na área tech.',
+    picture: 'participantes/joao-gabriel.jpg',
     socials: {
       twitter: 'https://mobile.twitter.com/joao_gabriel_08',
       instagram: 'https://www.instagram.com/o_matuto_programador/',
@@ -54,12 +59,13 @@ export const speakers = [
   },
   {
     id: 5,
-    name: Kamila,
+    name: 'Kamila',
     age: 24,
     city: 'São Paulo',
     state: 'SP',
     role: 'Teach Lead',
     bio: 'Trabalho na área de tecnologia desde 2017, Desenvolvedora backend com foco em Microsserviços em Java e Spring, bacharel em ciência da computação, cursando MBA em arquitetura de soluções, sou Microsoft MVP na categoria de Developer Technologies, co-organizadora de comunidades de tecnologia e sou co-autora do livro Jornada Java (escrito em conjunto com outras 30 pessoas). Produzo conteúdo no instagram e youtube Kamila_code e no experts club da rocketseat',
+    picture: 'participantes/kamila.jpg',
     socials: {
       twitter: 'https://twitter.com/kamilah_santos',
       instagram: 'https://www.instagram.com/kamila_code/',
@@ -74,6 +80,7 @@ export const speakers = [
     state: 'São Paulo',
     role: 'Live coder',
     bio: 'Estuda Análise e Desenvolvimento de Sistemas (FATEC Ferraz de Vasconcelos). Integra as comunidades Wakanda Streamers e Feministech, além de ter feito lives de estudo de programação na twitch, onde compartilhou seus conhecimento e desafios em estar se graduando após os 30 anos. Compartilha em suas redes sociais questões sobre diversidade para situações que estão além do óbvio.',
+    picture: 'participantes/fernanda.jpg',
     socials: {
       twitter: 'https://twitter.com/leitoraincomum',
       instagram: 'https://instagram.com/leitoraincomum',
@@ -88,21 +95,22 @@ export const speakers = [
     state: 'São Paulo',
     role: 'Software Developer',
     bio: 'Pai de meninas | Desenvolvedor de software | co-organizador na perifaCode | Cicloativista',
+    picture: 'participantes/roberson.jpg',
     socials: {
       instagram: 'https://instagram.com/_sou_o_roberson',
       twitter: 'https://twitter.com/biosbug',
       linkedin: 'https://www.linkedin.com/in/roberson-miguel'
     }
   },
-
   {
     id: 8,
-    name: Vanessa,
+    name: 'Vanessa',
     age: 30,
     city: 'Orlando',
     state: 'FL',
     role: 'Community Manager',
     bio: 'Administradora de Banco de Dados, desenvolvedora SQL e Python e eterna aprendiz de front end. Atualmente tocando as comunidades da Stack Overflow como Community Manager, criadora de conteúdo em tecnologia, apaixonada por flamingos e pela Wonder Woman.',
+    picture: 'participantes/vanessa.jpg',
     socials: {
       twitter: 'https://twitter.com/WonderWanny',
       instagram: 'https://www.instagram.com/wonderwanny/',
@@ -117,6 +125,7 @@ export const speakers = [
     city: 'SP',
     role: 'Project Manager',
     bio: 'Nascido, criado e morando o Grajaú, extremo da sul. Sou casado, tenho uma filha de 4 anos e tento deixar um mundo melhor pra ela. Trabalho como Product Manager no Itaú e como organizador na perifaCode. Somente a Educação é capaz de mudar vidas.',
+    picture: 'participantes/glauber.jpg',
     socials: {
       instagram: 'https://instagram.com/glauberacastro',
       twitter: 'https://twitter.com/glauberacastro',

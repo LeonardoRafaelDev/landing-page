@@ -1,6 +1,13 @@
 import { Box, Container, Flex, Heading, Text } from '@chakra-ui/react';
 import { SpeakerItem } from './SpeakerItem';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { speakers } from '../data/speakers'
+
+interface SpeakerItem {
+    name: string
+    role: string
+    bio: string
+}
 
 export function SpeakersSection() {
     return (
@@ -24,21 +31,13 @@ export function SpeakersSection() {
                                 }
                             }}
                         >
-                            <SwiperSlide>
-                                <SpeakerItem profilePic='participantes/anne.jpeg' name='Letícia Coelho' role='Full-Stack Software Engineer' description='Eu sou uma Engenheira de Software por atuação e Engenheira de telecomunicações por formação. Sou apaixonada pelo universo da tecnologia, inovação e criação de produtos que geram qualidade de vida para as pessoas.'></SpeakerItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <SpeakerItem profilePic='participantes/anne.jpeg' name='Letícia Coelho' role='Full-Stack Software Engineer' description='Eu sou uma Engenheira de Software por atuação e Engenheira de telecomunicações por formação. Sou apaixonada pelo universo da tecnologia, inovação e criação de produtos que geram qualidade de vida para as pessoas.'></SpeakerItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <SpeakerItem profilePic='participantes/anne.jpeg' name='Letícia Coelho' role='Full-Stack Software Engineer' description='Eu sou uma Engenheira de Software por atuação e Engenheira de telecomunicações por formação. Sou apaixonada pelo universo da tecnologia, inovação e criação de produtos que geram qualidade de vida para as pessoas.'></SpeakerItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <SpeakerItem profilePic='participantes/anne.jpeg' name='Letícia Coelho' role='Full-Stack Software Engineer' description='Eu sou uma Engenheira de Software por atuação e Engenheira de telecomunicações por formação. Sou apaixonada pelo universo da tecnologia, inovação e criação de produtos que geram qualidade de vida para as pessoas.'></SpeakerItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <SpeakerItem profilePic='participantes/anne.jpeg' name='Letícia Coelho' role='Full-Stack Software Engineer' description='Eu sou uma Engenheira de Software por atuação e Engenheira de telecomunicações por formação. Sou apaixonada pelo universo da tecnologia, inovação e criação de produtos que geram qualidade de vida para as pessoas.'></SpeakerItem>
-                            </SwiperSlide>
+                            {speakers.map((speaker:any) => {
+                                return (
+                                    <SwiperSlide key={speaker.id}>
+                                        <SpeakerItem profilePic={speaker.picture} name={speaker.name} role={speaker.role} description={speaker.bio} socials={speaker.socials}></SpeakerItem>
+                                    </SwiperSlide>
+                                )
+                            })}
                         </Swiper>
                     </Box>
                 </Flex>
