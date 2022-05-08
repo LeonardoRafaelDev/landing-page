@@ -1,5 +1,5 @@
 import { SwiperSlide } from 'swiper/react';
-import { Box, Flex, Heading, Icon, Text, Image } from '@chakra-ui/react';
+import { Flex, Heading, Icon, Text, Image } from '@chakra-ui/react';
 import { BsTwitter, BsInstagram, BsDiscord, BsGithub } from 'react-icons/bs'
 
 interface CommunityDetails {

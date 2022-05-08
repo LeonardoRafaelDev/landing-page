@@ -12,7 +12,7 @@ export function CommunitiesSection() {
     return (
         <Flex
             bg="brand.background"
-            paddingY="160px"
+            paddingY={{ base: '128px', md: '160px'}}
         >
             <Container maxW="1300px" paddingX={{md: '0'}}>
                 <Flex
@@ -20,9 +20,11 @@ export function CommunitiesSection() {
                     justify="center"
                     align="center"
                 >
-                    <Heading as="h4" fontSize="2xl" color="brand.green">Comunidades</Heading>
-                    <Heading paddingTop="2rem" textAlign="center" fontSize="4xl" color="brand.white">Lorem Ipsum dolor Sit amet consectetur</Heading>
-                    <Text paddingTop="1rem" w="55%" textAlign="center" color="brand.gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet convallis risus, eget sagittis tellus convallis ac. In vel libero a libero tincidunt suscipit. </Text>
+                    <Box w="100%" paddingX="1rem">
+                        <Heading as="h4" fontSize="2xl" textAlign="center" color="brand.green">Comunidades</Heading>
+                        <Heading paddingTop="2rem" textAlign="center" fontSize="3xl" color="brand.white">Lorem Ipsum dolor Sit amet consectetur</Heading>
+                        <Text paddingTop="1rem" w={{ base: '100%', md: '55%'}} textAlign="center" color="brand.gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet convallis risus, eget sagittis tellus convallis ac. In vel libero a libero tincidunt suscipit. </Text>
+                    </Box>
                     <Box w="100%" my="80px">
                         <Swiper
                             onSlideChange={() => console.log('slide change')}
