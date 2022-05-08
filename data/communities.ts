@@ -35,7 +35,7 @@ export const communities = [
     id: 3,
     name: 'Linuxtips',
     logo: {
-      url: 'comunidades/linuxtips.png',
+      url: 'comunidades/linuxtips.jpg',
       alt: 'todo'
     },
     description: 'Canal do Youtube criado para compartilhar o conhecimento adquirido ao longo de +16 anos de experiência. Vamos falar sobre Linux, Docker, Kubernetes, DevOps, Infra-ágil, automação e muito mais!',
