@@ -19,6 +19,7 @@ export function NavBar({...props}) {
             as="nav" 
             width='100%' 
             justify={{ base: 'end', md: 'center' }} {...props}
+            position="fixed"
         >
             <List display={{ base: 'none', md: 'block' }}>
                 {navItems.map((item) => {
