@@ -44,16 +44,16 @@ export function CommunitiesItem ({ name, description, imgUrl, imgAlt, socials } 
                 <Divider borderColor="brand.gray" my="6" />
                 <Flex paddingTop="28px">
                     <Link href={socials.twitter} isExternal>
-                        <Icon color="brand.white" as={BsTwitter} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
+                        <Icon color="brand.white" aria-label="Twitter" as={BsTwitter} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
                     </Link>
                     <Link href={socials.instagram} isExternal>
-                        <Icon color="brand.white" as={BsInstagram} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
+                        <Icon color="brand.white" aria-label="Instagram" as={BsInstagram} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
                     </Link>
                     <Link href={socials.discord} isExternal>
-                        <Icon color="brand.white" as={BsDiscord} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
+                        <Icon color="brand.white" aria-label="Discord" as={BsDiscord} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
                     </Link>
                     <Link href={socials.github} isExternal>
-                        <Icon color="brand.white" as={BsGithub} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
+                        <Icon color="brand.white" aria-label="GitHub" as={BsGithub} boxSize="2rem" marginRight="38px" cursor="pointer" transition="color .5s ease" _hover={{ color: 'brand.green' }} />
                     </Link>
                 </Flex>
             </Flex>
