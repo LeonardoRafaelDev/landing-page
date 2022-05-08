@@ -1,9 +1,11 @@
 import { Flex, IconButton, List, useDisclosure } from '@chakra-ui/react';
+import { useState } from 'react';
 import { HiMenu } from 'react-icons/hi';
 import { NavItem } from './NavItem';
 import { NavMenu } from './NavMenu';
 
 export function NavBar({...props}) {
+    const [background, setBackground] = useState("transparent")
     const { isOpen, onOpen, onClose } = useDisclosure();
     const navItems = [
         { href: '/', label: 'Início' },
@@ -14,12 +16,26 @@ export function NavBar({...props}) {
         { href: '#sobre-mtst', label: 'Sobre o MTST' }
     ];
 
+    const changeBackground = () => {
+        if (window.pageYOffset > 150) {
+            setBackground("brand.background")
+        } else {
+            setBackground("transparent")
+        }
+    }
+
+    if (typeof window !== "undefined") {
+        window.addEventListener("scroll", changeBackground)
+    }
+
     return (
         <Flex 
             as="nav" 
             width='100%' 
             justify={{ base: 'end', md: 'center' }} {...props}
             position="fixed"
+            bgColor={background}
+            zIndex="10"
         >
             <List display={{ base: 'none', md: 'block' }}>
                 {navItems.map((item) => {

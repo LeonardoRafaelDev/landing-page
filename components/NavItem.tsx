@@ -12,8 +12,7 @@ interface NavItemProps {
 export function NavItem({ label, href, active, clickEvent } : NavItemProps) {
     return (
         <ListItem
-            paddingY={{ base: '1rem', md: '0' }}
-            marginTop="1rem"
+            paddingY={{ base: '1rem', md: '1rem' }}
             borderBottom={{ base: '1px', md: '0'}}
             borderColor={{ base: 'brand.darkGray', md: '' }}
             float={{ md: 'left' }}
