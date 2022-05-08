@@ -1,6 +1,8 @@
 import { Flex } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { AboutMTSTSection } from '../components/AboutMTSTSection'
+import { CommunitiesSection } from '../components/CommunitiesSection'
 import { EventGoalSection } from '../components/EventGoalSection'
 import { Footer } from '../components/Footer'
 import { MainInfo } from '../components/MainInfo'
@@ -8,8 +10,9 @@ import { SponsorsSection } from '../components/SponsorsSection';
 import { NavBar } from '../components/NavBar';
 import { CommunitiesSection } from '../components/CommunitiesSection'
 import { SpeakersSection } from '../components/SpeakersSection'
+import { SupportEventSection } from '../components/SupportEventSection'
+import { SupportMTST } from '../components/SupportMTST'
 import { WhatToExpectSection } from '../components/WhatToExpectSection'
-
 const Home: NextPage = () => {
   return (
     <Flex direction="column">
@@ -19,10 +22,13 @@ const Home: NextPage = () => {
       <MainInfo />
       <SponsorsSection />
       <EventGoalSection />
-      <SpeakersSection />
       <CommunitiesSection />  
       <WhatToExpectSection/>
-      <Footer />
+      <SpeakersSection />
+      <SupportEventSection />
+      <AboutMTSTSection/>
+      <SupportMTST />
+      <Footer />  
     </Flex>
   )
 }
