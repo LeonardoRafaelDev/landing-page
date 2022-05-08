@@ -12,7 +12,6 @@ export function MainInfo() {
       w="100%"
       h={["95vh", "100vh"]}
       flexDirection="column"
-      templateRows="1% 99%"
     >
       <NavBar />
       <Flex align="center"

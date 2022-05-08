@@ -1,11 +1,10 @@
+import { Link, ListItem } from '@chakra-ui/react';
 import NextLink from 'next/link';
-import { Link, ListItem } from '@chakra-ui/react'
-import { UrlObject } from 'url';
 import { MouseEventHandler } from 'react';
 
 interface NavItemProps {
     label: String
-    href: UrlObject
+    href: string
     active: Boolean
     clickEvent?: MouseEventHandler
 }

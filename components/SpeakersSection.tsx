@@ -1,17 +1,11 @@
 import { Box, Container, Flex, Heading, Text } from '@chakra-ui/react';
-import { SpeakerItem } from './SpeakerItem';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { speakers } from '../data/speakers'
-
-interface SpeakerItem {
-    name: string
-    role: string
-    bio: string
-}
+import { SpeakerItem } from './SpeakerItem';
 
 export function SpeakersSection() {
     return (
-        <Flex bg="brand.background">
+        <Flex bg="brand.background" id="convidados">
             <Container maxW="1300px" pt="6">
                 <Flex flexDir="column" justify="center" align="center">
                     <Heading as="h4" fontSize="2xl" color="brand.green" marginBottom="32px">Convidados</Heading>
