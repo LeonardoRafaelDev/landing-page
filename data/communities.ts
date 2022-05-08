@@ -2,6 +2,7 @@ export const communities = [
   {
     id: 1,
     name: 'He4rt Developers',
+    logo: 'comunidades/he4rt.png',
     description: 'Aqui é o lugar aonde mentes extraordinárias se encontram com o objetivo de alcançar milhares de pessoas com o poder da tecnologia. Aqui mais do que participar, você vai contribuir.',
     socials: {
       twitter: 'https://twitter.com/He4rtDevs',
@@ -14,6 +15,7 @@ export const communities = [
   {
     id: 2,
     name: 'perifaCode',
+    logo: 'comunidades/perifacode.jpeg',
     description: 'perifaCode é uma comunidade de desenvolvedores que se reunem para compartilhar conhecimento e experiências.',
     socials: {
       twitter: 'https://twitter.com/perifacode',
@@ -26,6 +28,7 @@ export const communities = [
   {
     id: 3,
     name: 'Linuxtips',
+    logo: 'comunidades/linuxtips.png',
     description: 'Canal do Youtube criado para compartilhar o conhecimento adquirido ao longo de +16 anos de experiência. Vamos falar sobre Linux, Docker, Kubernetes, DevOps, Infra-ágil, automação e muito mais!',
     socials: {
       twitter: 'https://twitter.com/LINUXtipsBR',
@@ -38,6 +41,7 @@ export const communities = [
   {
     id: 4,
     name: 'Feministech',
+    logo: 'comunidades/feministech.png',
     description: 'A Feministech é um grupo de pessoas que se identificam no feminino e não-bináries que produzem, consumem e compartilham conteúdo sobre tecnologia, em um ambiente diverso e inclusivo.',
     socials: {
       twitter: 'https://twitter.com/feminis_tech/',
@@ -50,6 +54,7 @@ export const communities = [
   {
     id: 5,
     name: 'Wakanda Streamers',
+    logo: 'comunidades/wakanda.png',
     description: 'Iniciativa voltada a reunir, integrar e impulsionar a comunidade preta.',
     socials: {
       twitter: 'https://twitter.com/WakandaStreamer',
@@ -62,6 +67,7 @@ export const communities = [
   {
     id: 6,
     name: 'Beestrong Code',
+    logo: 'comunidades/beestrong.png',
     description: '',
     socials: {
       twitter: 'https://twitter.com/BeeStrongcode',
@@ -74,6 +80,7 @@ export const communities = [
   {
     id: 7,
     name: 'Núcleo de Tecnologia do MTST',
+    logo: 'comunidades/mtst.png',
     description: 'Somos um coletivo de militantes sociais que calharam de também trabalhar com tecnologia. Contribuimos com soluções que ajudem a impulsionar a luta cotidiana, fazê-la mais forte e o futuro cada vez mais promissor de quem trabalha.',
     socials: {
       twitter: 'https://twitter.com/mtst',
