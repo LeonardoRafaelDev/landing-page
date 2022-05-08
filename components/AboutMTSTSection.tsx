@@ -16,7 +16,7 @@ export function AboutMTSTSection() {
           Conheça mais sobre as iniciativas do núcleo clicando <Link href="https://nucleodetecnologia.com.br/#portfolio" color="brand.green" isExternal>aqui </Link>.
         </Text>
         <Heading as="h2" fontSize="xl" color="brand.green" my="8">Apoie agora mesmo</Heading>
-        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Blank_Square.svg/1024px-Blank_Square.svg.png"
+        <Image src="pix-mtst.jpg"
           w="120px"
           h="120px"
         />
