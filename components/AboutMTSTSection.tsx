@@ -22,7 +22,7 @@ export function AboutMTSTSection() {
               Nullam vehicula hendrerit nibh, eu fermentum odio ultricies interdum. Vestibulum nibh enim, tincidunt et dignissim sit amet, tristique nec ligula.
               </Text>
             </Container>
-            <Image src="About-MSTS.png" display={["none", "none", "block"]} />
+            <Image src="About-MTST.png" display={["none", "none", "block"]} />
           </Flex>
 
       );
