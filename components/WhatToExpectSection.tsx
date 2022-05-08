@@ -7,7 +7,7 @@ export function WhatToExpectSection() {
 
       <Container maxW={800} color="brand.gray" py="8">
 
-        <Heading as="h2" fontSize="xl" color="brand.green" mb="4">
+        <Heading as="h2" fontSize={["xl","xl","3xl"]} color="brand.green" mb="4">
           O que você vai encontrar?
         </Heading>
 
