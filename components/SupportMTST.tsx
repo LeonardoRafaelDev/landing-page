@@ -2,7 +2,7 @@ import { Container, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 export function SupportMTST() {
   return (
-    <Flex py="32" bgColor="brand.background" >
+    <Flex py="10" bgColor="brand.background" >
       <Container maxW={1180}>
         <Flex direction="column" justify="center" align="center" gap="2">
           <Heading as="h2" fontSize="xl" color="brand.green">Apoie agora mesmo</Heading>
