@@ -9,7 +9,6 @@ import { MainInfo } from '../components/MainInfo'
 import { SpeakersSection } from '../components/SpeakersSection'
 import { SponsorsSection } from '../components/SponsorsSection'
 import { SupportEventSection } from '../components/SupportEventSection'
-import { SupportMTST } from '../components/SupportMTST'
 import { WhatToExpectSection } from '../components/WhatToExpectSection'
 const Home: NextPage = () => {
   return (
@@ -25,7 +24,6 @@ const Home: NextPage = () => {
       <SpeakersSection />
       <SupportEventSection />
       <AboutMTSTSection/>
-      <SupportMTST />
       <Footer />  
     </Flex>
   )
