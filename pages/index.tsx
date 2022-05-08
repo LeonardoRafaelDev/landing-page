@@ -8,7 +8,7 @@ import { MainInfo } from '../components/MainInfo'
 import { SponsorsSection } from '../components/SponsorsSection'
 import { SupportEventSection } from '../components/SupportEventSection'
 import { WhatToExpectSection } from '../components/WhatToExpectSection'
-
+import { AboutMTSTSection } from '../components/AboutMTSTSection'
 const Home: NextPage = () => {
   return (
     <Flex direction="column">
@@ -21,6 +21,7 @@ const Home: NextPage = () => {
       <CommunitiesSection />  
       <WhatToExpectSection/>
       <SupportEventSection />
+      <AboutMTSTSection/>
       <Footer />  
     </Flex>
   )
