@@ -1,19 +1,19 @@
 export const speakers = [
-  {
-    id: 1,
-    name: 'Anne',
-    age: 22,
-    city: 'São Paulo',
-    state: 'SP',
-    role: 'Front-end Developer',
-    picture: 'participantes/anne.jpeg',
-    socials: {
-      twitter: 'https://twitter.com/annerland',
-      instagram: 'https://instagram.com/annerland',
-      linkedin: 'https://www.linkedin.com/in/anna-campelo-559606152'
-    },
-    bio: 'Artista, Desenvolvedora e membro da He4rt Developers'
-  },
+  // {
+  //   id: 1,
+  //   name: 'Anne',
+  //   age: 22,
+  //   city: 'São Paulo',
+  //   state: 'SP',
+  //   role: 'Front-end Developer',
+  //   picture: 'participantes/anne.jpeg',
+  //   socials: {
+  //     twitter: 'https://twitter.com/annerland',
+  //     instagram: 'https://instagram.com/annerland',
+  //     linkedin: 'https://www.linkedin.com/in/anna-campelo-559606152'
+  //   },
+  //   bio: 'Artista, Desenvolvedora e membro da He4rt Developers'
+  // },
   {
     id: 2,
     name: 'Isabella',
