@@ -1,5 +1,5 @@
-import { Flex, Heading, Icon, Text, Image, Divider, Link, useDisclosure } from '@chakra-ui/react';
-import { BsTwitter, BsInstagram, BsDiscord, BsGithub } from 'react-icons/bs';
+import { Divider, Flex, Heading, Icon, Image, Link, Text, useDisclosure } from '@chakra-ui/react';
+import { BsDiscord, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 import { ModalComponent } from './Modal';
 
 interface Socials {
@@ -22,7 +22,7 @@ export function CommunitiesItem ({ name, description, imgUrl, imgAlt, socials } 
     return (
         <>
             <Flex bg="brand.black" maxW="544px" px="20px" py="32px" marginBottom={{ base: '80px', md: '0' }} marginLeft={{ md: '48px' }} cursor="pointer" minHeight="320px" onClick={onOpen}>
-                <Flex justify="center" align="center" maxWidth={{ base: '30px', md: '50px'}} maxH={{ base: '30px', md: '50px'}} borderRadius="50%" overflow="hidden" bg="brand.darkGray" marginRight={{ base: '16px', md: '32px'}}>
+                <Flex justify="center" align="center" maxWidth={{ base: '40px', md: '50px'}} maxH={{ base: '40px', md: '50px'}} borderRadius="50%" overflow="hidden" bg="brand.darkGray" marginRight={{ base: '16px', md: '32px'}}>
                     <Image maxW="70%" src={imgUrl} alt={imgAlt} borderRadius="50%"></Image>
                 </Flex>
                 <Flex
