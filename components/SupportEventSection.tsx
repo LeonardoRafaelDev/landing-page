@@ -26,7 +26,7 @@ export function SupportEventSection() {
         <Text my="4">
           Ou compartilhe essa página em suas redes sociais! Seu alcance e visibilidade pode ajudar muito!
         </Text>
-        <Button href="#" target="_blank">Acessar Media Kit</Button>
+        <Button href="media-kit.pdf" target="_blank">Acessar Media Kit</Button>
       </Container>
     </Flex>
   )
