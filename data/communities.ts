@@ -97,18 +97,18 @@ export const communities = [
   },
   {
     id: 7,
-    name: 'Feministech',
+    name: 'Mage',
     logo: {
-      url: 'comunidades/feministech.png',
-      alt: 'todo'
+      url: 'comunidades/mage.jpeg',
+      alt: 'logo Mage comunity of game developer'
     },
-    description: 'A Feministech é um grupo de pessoas que se identificam no feminino e não-bináries que produzem, consumem e compartilham conteúdo sobre tecnologia, em um ambiente diverso e inclusivo.',
+    description: 'Aprenda desenvolver jogos gratuitamente na nossa comunidade! Gamedev for everyone.',
     socials: {
-      twitter: 'https://twitter.com/feminis_tech/',
-      instagram: 'https://www.instagram.com/feminis_cat/',
-      discord: '',
+      twitter: 'https://twitter.com/magegamedev',
+      instagram: 'https://www.instagram.com/magegamedev/',
+      discord: 'https://discord.io/mage',
       github: ''
     },
-    site_url: 'https://feministech.github.io/',
+    site_url: 'www.discord.io/mage',
   }
 ]
