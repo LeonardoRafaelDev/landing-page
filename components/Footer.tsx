@@ -19,7 +19,11 @@ export function Footer() {
         </SimpleGrid>
         <Divider mt={["42px", "64px"]} mb={["32px", "42px"]} />
         <Text fontWeight={700} color="brand.white">
-          Design por <Link href="https://www.behance.net/nexturhe4rt" target="_blank" color="brand.green">@NexTuRHe4rt</Link>
+          Design por <Link href="https://www.behance.net/nexturhe4rt" target="_blank" color="brand.green">@NexTuRHe4rt</Link>        </Text>
+        <Text fontWeight={700} color="brand.white">
+        Desenvolvido por <Link href="https://www.guilhermevieira.dev/en-US" target="_blank" color="brand.green"> @gitlherme  </Link>
+                        <Link href="https://twitter.com/leonardo03x" target="_blank" color="brand.green"> @theleonardo  </Link>
+                        <Link href="https://twitter.com/IleonardoHe4rt" target="_blank" color="brand.green"> @ileonardoHe4rt</Link>
         </Text>
       </Container>
     </Box>

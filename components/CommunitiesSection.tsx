@@ -29,8 +29,13 @@ export function CommunitiesSection() {
                         <Swiper
                             navigation
                             breakpoints={{
-                                0: {
+                                320: {
+                                    spaceBetween: 20,
                                     slidesPerView: 1
+                                },
+                                590: {
+                                    spaceBetween: 20,
+                                    slidesPerView: 1.2
                                 },
                                 768: {
                                     slidesPerView: 2

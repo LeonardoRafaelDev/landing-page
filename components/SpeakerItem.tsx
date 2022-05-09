@@ -44,8 +44,8 @@ export function SpeakerItem( { profilePic, name, role, description, socials } : 
             > 
                 <Flex flexDir="column" align="center">
                     <Box
-                        w={{ base: '50px', md: '100px'}}
-                        h={{ base: '50px', md: '100px'}} 
+                        w='100px'
+                        h='100px' 
                         borderRadius="50%"
                         overflow='hidden'
                     >
