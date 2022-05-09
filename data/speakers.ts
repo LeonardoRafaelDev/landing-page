@@ -123,7 +123,7 @@ export const speakers = [
     age: 32,
     state: 'São Paulo',
     city: 'SP',
-    role: 'Project Manager',
+    role: 'Product Manager',
     bio: 'Nascido, criado e morando o Grajaú, extremo da sul. Sou casado, tenho uma filha de 4 anos e tento deixar um mundo melhor pra ela. Trabalho como Product Manager no Itaú e como organizador na perifaCode. Somente a Educação é capaz de mudar vidas.',
     picture: 'participantes/glauber.jpg',
     socials: {
