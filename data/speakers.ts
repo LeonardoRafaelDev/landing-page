@@ -114,7 +114,7 @@ export const speakers = [
     socials: {
       twitter: 'https://twitter.com/WonderWanny',
       instagram: 'https://www.instagram.com/wonderwanny/',
-      linkedin: 'https://www.linkedin.com/in/kamila-santos-oliveira/'
+      linkedin: 'https://www.linkedin.com/in/vannessamoura'
     }
   },
   {
