@@ -25,7 +25,7 @@ export const speakers = [
     socials: {
       twitter: 'http://twitter.com/isahermanx',
       instagram: 'http://instagram.com/isabellaherman',
-      linkedin: 'https://www.linkedin.com/in/anna-campelo-559606152'
+      linkedin: 'https://www.linkedin.com/in/isabella-herman-285317140/'
     },
     bio: 'Gamedev Evangelist and MAGE founder'
   },
@@ -39,8 +39,8 @@ export const speakers = [
     picture: 'participantes/leticia-coelho.jpeg',
     socials: {
       twitter: 'https://twitter.com/EngineerRabbit',
-      instagram: 'http://instagram.com/isabellaherman',
-      linkedin: 'https://www.linkedin.com/in/anna-campelo-559606152'
+      instagram: 'https://www.instagram.com/engenheira.coelho/',
+      linkedin: 'https://www.linkedin.com/in/engenheiracoelho/'
     },
     bio: 'Eu sou uma Engenheira de Software por atuação e Engenheira de telecomunicações por formação. Sou apaixonada pelo universo da tecnologia, inovação e criação de produtos que geram qualidade de vida para as pessoas. Trabalho ativamente nas comunidades tech, divulgando e criando conteúdos simplificados para facilitar e incentivar a entrada de novos integrantes para a área. Isso tudo, porque eu realmente acredito que um bom futuro depende de tecnologia e educação.'
   },
