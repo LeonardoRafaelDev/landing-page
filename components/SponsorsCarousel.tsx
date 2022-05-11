@@ -38,9 +38,6 @@ export function SponsorsCarousel() {
             <Sponsor href="https://zup.com.br" logo="patrocinadores/zup.jpg" alt="Zup logo"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Sponsor href="https://www.lambda3.com.br/" logo="patrocinadores/lambda.jpg" alt="Lambda3 logo"/>
-          </SwiperSlide>
-          <SwiperSlide>
             <Sponsor href="https://vindi.com.br/" logo="patrocinadores/vindi.jpg" alt="Vindi logo"/>
           </SwiperSlide>
           <SwiperSlide>
