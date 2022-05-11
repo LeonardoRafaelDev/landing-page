@@ -47,7 +47,6 @@ export const speakers = [
   {
     id: 4,
     name: 'João Gabriel',
-    age: 37,
     city: 'São Paulo',
     state: 'SP',
     role: 'Head of Technology',

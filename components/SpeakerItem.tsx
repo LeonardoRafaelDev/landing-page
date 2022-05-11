@@ -59,7 +59,9 @@ export function SpeakerItem( { profilePic, name, age, state, city, role, descrip
                         ></Image>
                     </Box>
                     <Heading textAlign="center" as="h2" fontSize="2xl" marginTop="32px" color="brand.white">{ name }</Heading>
-                    <Text as="span" color="brand.white" fontSize="md">{ age } - { city }, { state }</Text>
+                    <Text as="span" color="brand.white" fontSize="md">
+                        { age && `${age} -`} { city }, { state }
+                    </Text>
                     <Heading textAlign="center" as="h5" fontSize="md" color="brand.green" marginTop="32px">{ role }</Heading>
                     <Text color="brand.gray" marginY="32px" textAlign='center' noOfLines={5}>{ description }</Text>
                 </Flex>
