@@ -163,6 +163,21 @@ export const speakers = [
       twitter: '',
       linkedin: ''
     }
-  }
+  },
+  {
+    id: 12,
+    name: 'Thais Luzia',
+    age: 27,
+    state: 'RJ',
+    city: 'Mesquita',
+    role: 'Assistente de Dados',
+    bio: 'Thais trabalha como Assistente de Dados, é PCD e apaixonada por pessoas e tecnologia!',
+    picture: 'participantes/thais.jpeg',
+    socials: {
+      instagram: 'https://www.instagram.com/thaaisluzia/',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/thaisluziaa/'
+    }
+  },
   
 ]
