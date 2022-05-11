@@ -17,8 +17,6 @@ export const speakers = [
   {
     id: 2,
     name: 'Isabella',
-    age: 23,
-    city: 'Curitiba',
     state: 'PR',
     role: 'Product Manager',
     picture: 'participantes/isabella.jpeg',
@@ -33,7 +31,6 @@ export const speakers = [
     id: 3,
     name: 'Letícia',
     role: 'Full-Stack Software Engineer',
-    city: 'Palhoça',
     state: 'SC',
     picture: 'participantes/leticia-coelho.jpeg',
     socials: {
@@ -46,7 +43,6 @@ export const speakers = [
   {
     id: 4,
     name: 'João Gabriel',
-    city: 'São Paulo',
     state: 'SP',
     role: 'Head of Technology',
     bio: 'Dev e Head de tecnologia com mais de 14 anos de experiência na área tech.',
@@ -60,10 +56,8 @@ export const speakers = [
   {
     id: 5,
     name: 'Kamila',
-    age: 24,
-    city: 'São Paulo',
     state: 'SP',
-    role: 'Teach Lead',
+    role: 'Tech Lead',
     bio: 'Trabalho na área de tecnologia desde 2017, Desenvolvedora backend com foco em Microsserviços em Java e Spring, bacharel em ciência da computação, cursando MBA em arquitetura de soluções, sou Microsoft MVP na categoria de Developer Technologies, co-organizadora de comunidades de tecnologia e sou co-autora do livro Jornada Java (escrito em conjunto com outras 30 pessoas). Produzo conteúdo no instagram e youtube Kamila_code e no experts club da rocketseat',
     picture: 'participantes/kamila.jpg',
     socials: {
@@ -75,8 +69,6 @@ export const speakers = [
   {
     id: 6,
     name: 'Fernanda',
-    age: 37,
-    city: 'Ferraz de Vasconcelos',
     state: 'SP',
     role: 'Live coder',
     bio: 'Estuda Análise e Desenvolvimento de Sistemas (FATEC Ferraz de Vasconcelos). Integra as comunidades Wakanda Streamers e Feministech, além de ter feito lives de estudo de programação na twitch, onde compartilhou seus conhecimento e desafios em estar se graduando após os 30 anos. Compartilha em suas redes sociais questões sobre diversidade para situações que estão além do óbvio.',
@@ -90,8 +82,6 @@ export const speakers = [
   {
     id: 7,
     name: 'Roberson',
-    age: 42,
-    city: 'São Paulo',
     state: 'SP',
     role: 'Software Developer',
     bio: 'Pai de meninas | Desenvolvedor de software | co-organizador na perifaCode | Cicloativista',
@@ -105,7 +95,6 @@ export const speakers = [
   {
     id: 8,
     name: 'Vanessa',
-    age: 30,
     city: 'Orlando',
     state: 'FL',
     role: 'Community Manager',
@@ -120,9 +109,7 @@ export const speakers = [
   {
     id: 9,
     name: 'Glauber',
-    age: 32,
     state: 'SP',
-    city: 'São Paulo',
     role: 'Product Manager',
     bio: 'Nascido, criado e morando o Grajaú, extremo da sul. Sou casado, tenho uma filha de 4 anos e tento deixar um mundo melhor pra ela. Trabalho como Product Manager no Itaú e como organizador na perifaCode. Somente a Educação é capaz de mudar vidas.',
     picture: 'participantes/glauber.jpg',
@@ -135,9 +122,7 @@ export const speakers = [
   {
     id: 10,
     name: 'Nelly Jaqueline',
-    age: 27,
     state: 'SP',
-    city: 'São Paulo',
     role: 'Designer',
     bio: 'Venho da base do MTST desde 2015, sempre trabalhei do ramo do Designer têxtil e sempre via a tecnologia como algo dificil demais para minha mente de humanas. Tenho descoberto um mundo de possibilidades dentro da programação, graças ao núcleo de Tecnologia do MTST, que abriu portas pra mim.',
     picture: 'participantes/nelly.jpeg',
@@ -150,9 +135,7 @@ export const speakers = [
   {
     id: 11,
     name: 'Gabriel Simeone',
-    age: 35,
     state: 'SP',
-    city: 'São Paulo',
     role: 'Desenvolvedor',
     bio: 'Sou educador popular no MTST desde 2005, desenvolvedor desde 2018 e contribuo com o núcleo de tecnologia do MTST.',
     picture: 'participantes/gabriel.jpeg',
@@ -165,9 +148,7 @@ export const speakers = [
   {
     id: 12,
     name: 'Thais Luzia',
-    age: 27,
     state: 'RJ',
-    city: 'Mesquita',
     role: 'Assistente de Dados',
     bio: 'Thais trabalha como Assistente de Dados, é PCD e apaixonada por pessoas e tecnologia!',
     picture: 'participantes/thais.jpeg',
