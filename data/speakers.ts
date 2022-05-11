@@ -155,7 +155,7 @@ export const speakers = [
     city: 'SP',
     role: 'Desenvolvedor',
     bio: 'Sou educador popular no MTST desde 2005, desenvolvedor desde 2018 e contribuo com o núcleo de tecnologia do MTST.',
-    picture: 'participantes/nelly.jpeg',
+    picture: 'participantes/gabriel.jpeg',
     socials: {
       instagram: 'https://www.instagram.com/tecnologia.mtst/',
       twitter: '',
