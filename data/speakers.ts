@@ -146,5 +146,21 @@ export const speakers = [
       twitter: '',
       linkedin: 'https://www.linkedin.com/in/nelly-jaqueline-a8a00193/'
     }
+  },
+  {
+    id: 11,
+    name: 'Gabriel Simeone',
+    age: 35,
+    state: 'São Paulo',
+    city: 'SP',
+    role: 'Desenvolvedor',
+    bio: 'Sou educador popular no MTST desde 2005, desenvolvedor desde 2018 e contribuo com o núcleo de tecnologia do MTST.',
+    picture: 'participantes/nelly.jpeg',
+    socials: {
+      instagram: 'https://www.instagram.com/tecnologia.mtst/',
+      twitter: '',
+      linkedin: ''
+    }
   }
+  
 ]
