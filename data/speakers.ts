@@ -33,7 +33,6 @@ export const speakers = [
     id: 3,
     name: 'Letícia',
     role: 'Full-Stack Software Engineer',
-    age: 28,
     city: 'Palhoça',
     state: 'SC',
     picture: 'participantes/leticia-coelho.jpeg',
