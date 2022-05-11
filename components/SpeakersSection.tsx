@@ -27,7 +27,7 @@ export function SpeakersSection() {
                             {speakers.map((speaker:any) => {
                                 return (
                                     <SwiperSlide key={speaker.id}>
-                                        <SpeakerItem profilePic={speaker.picture} name={speaker.name} role={speaker.role} description={speaker.bio} socials={speaker.socials}></SpeakerItem>
+                                        <SpeakerItem profilePic={speaker.picture} name={speaker.name} age={speaker.age} city={speaker.city} state={speaker.state} role={speaker.role} description={speaker.bio} socials={speaker.socials}></SpeakerItem>
                                     </SwiperSlide>
                                 )
                             })}

@@ -10,12 +10,15 @@ interface Socials {
 interface SpeakerItem {
     profilePic: string
     name: string
+    age:  number
+    state: string
+    city: string
     role: string
-    description: string,
+    description: string
     socials: Socials
 }
 
-export function SpeakerItem( { profilePic, name, role, description, socials } : SpeakerItem) {
+export function SpeakerItem( { profilePic, name, age, state, city, role, description, socials } : SpeakerItem) {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const socialList = [
         { name: BsTwitter, href: socials?.twitter, id: 1, ariaLabel: "Perfil no twitter" },
@@ -56,6 +59,7 @@ export function SpeakerItem( { profilePic, name, role, description, socials } : 
                         ></Image>
                     </Box>
                     <Heading textAlign="center" as="h2" fontSize="2xl" marginTop="32px" color="brand.white">{ name }</Heading>
+                    <Text as="span" color="brand.white" fontSize="md">{ age } - { city }, { state }</Text>
                     <Heading textAlign="center" as="h5" fontSize="md" color="brand.green" marginTop="32px">{ role }</Heading>
                     <Text color="brand.gray" marginY="32px" textAlign='center' noOfLines={5}>{ description }</Text>
                 </Flex>
