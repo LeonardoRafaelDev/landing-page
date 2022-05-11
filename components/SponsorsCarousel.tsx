@@ -15,7 +15,7 @@ export function SponsorsCarousel() {
           breakpoints={{
             720: {
               spaceBetween: 10,
-              slidesPerView: 9
+              slidesPerView: 8
             }
           }}
         >
@@ -42,9 +42,6 @@ export function SponsorsCarousel() {
           </SwiperSlide>
           <SwiperSlide>
             <Sponsor href="https://linuxtips.io/" logo="comunidades/linuxtips.jpg" alt="Linuxtips logo"/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Sponsor href="https://getup.io/" logo="patrocinadores/getup.jpg" alt="Getup logo"/>
           </SwiperSlide>
         </Swiper>
       </Flex>
