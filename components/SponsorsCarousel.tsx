@@ -15,7 +15,7 @@ export function SponsorsCarousel() {
           breakpoints={{
             720: {
               spaceBetween: 10,
-              slidesPerView: 10
+              slidesPerView: 9
             }
           }}
         >

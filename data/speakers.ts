@@ -131,5 +131,20 @@ export const speakers = [
       twitter: 'https://twitter.com/glauberacastro',
       linkedin: 'https://www.linkedin.com/in/glaubercastro'
     }
+  },
+  {
+    id: 10,
+    name: 'Nelly Jaqueline',
+    age: 27,
+    state: 'São Paulo',
+    city: 'SP',
+    role: 'Designer têxtil',
+    bio: 'Venho da base do MTST desde 2015, sempre trabalhei do ramo do Designer têxtil e sempre via a tecnologia como algo dificil demais para minha mente de humanas. Tenho descoberto um mundo de possibilidades dentro da programação, graças ao núcleo de Tecnologia do MTST, que abriu portas pra mim.',
+    picture: 'participantes/nelly.jpeg',
+    socials: {
+      instagram: 'https://www.instagram.com/nelly_jacking/',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/nelly-jaqueline-a8a00193/'
+    }
   }
 ]

@@ -1,5 +1,5 @@
-import { Flex, Heading, IconButton, Text, Image, Box, Link, useDisclosure, useOutsideClick } from "@chakra-ui/react"
-import { BsTwitter, BsInstagram, BsLinkedin } from 'react-icons/bs'
+import { Box, Flex, Heading, IconButton, Image, Link, Text, useDisclosure } from "@chakra-ui/react"
+import { BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { ModalComponent } from './Modal'
 
 interface Socials {
@@ -59,11 +59,13 @@ export function SpeakerItem( { profilePic, name, role, description, socials } : 
                     <Heading textAlign="center" as="h5" fontSize="md" color="brand.green" marginTop="32px">{ role }</Heading>
                     <Text color="brand.gray" marginY="32px" textAlign='center' noOfLines={5}>{ description }</Text>
                 </Flex>
-                <Flex w="70%" justify="space-between" align="center">
+                <Flex w="70%" justify="center" align="center" gap="4">
                     {socialList.map((social) => {
-                        return (<Link href={social.href} key={social.id} isExternal>
+                        if (social.href !== '') {
+                            return (<Link href={social.href} key={social.id} isExternal>
                                 <IconButton cursor="pointer" color="brand.white" transition="color .3s ease" bg="none" _hover={{ bg: 'none', color: 'brand.green' }} as={social.name} href={social.href} aria-label={social.ariaLabel} boxSize="32px" background='none' />
                             </Link>)
+                        }
                     })}
                 </Flex>
             </Flex>
