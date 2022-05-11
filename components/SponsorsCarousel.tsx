@@ -15,7 +15,7 @@ export function SponsorsCarousel() {
           breakpoints={{
             720: {
               spaceBetween: 10,
-              slidesPerView: 10
+              slidesPerView: 9
             }
           }}
         >
@@ -36,9 +36,6 @@ export function SponsorsCarousel() {
           </SwiperSlide>
           <SwiperSlide>
             <Sponsor href="https://zup.com.br" logo="patrocinadores/zup.jpg" alt="Zup logo"/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Sponsor href="https://www.lambda3.com.br/" logo="patrocinadores/lambda.jpg" alt="Lambda3 logo"/>
           </SwiperSlide>
           <SwiperSlide>
             <Sponsor href="https://vindi.com.br/" logo="patrocinadores/vindi.jpg" alt="Vindi logo"/>
