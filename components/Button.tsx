@@ -15,6 +15,11 @@ export function Button({ href, target, children }: ButtonProps) {
       py="2"
       fontWeight="bold"
       bgColor="brand.green"
+      _hover={{
+        bgColor: "brand.background",
+        color: "brand.green",
+        textDecoration: "none"
+      }}
     >
       {children}  
     </Link>

@@ -1,13 +1,15 @@
-import { Circle, Flex, Icon, Text } from "@chakra-ui/react";
+import { Circle, Flex, Icon, Link, Text } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 
 interface HorizontalInfoProps {
   icon: IconType,
   title: string,
   content: string
+  isLink?: boolean
+  href?: string
 }
 
-export function HorizontalInfo({ icon, title, content }: HorizontalInfoProps) {
+export function HorizontalInfo({ icon, title, content, isLink, href }: HorizontalInfoProps) {
   return (
     <Flex gap="3">
       <Circle
@@ -24,7 +26,9 @@ export function HorizontalInfo({ icon, title, content }: HorizontalInfoProps) {
           {title}
         </Text>
         <Text color="brand.gray">
-          {content}
+          {
+            isLink ? <Link href={href} isExternal _hover={{color: "brand.green" }}>{content}</Link> : content
+          }
         </Text>
       </Flex>
     </Flex>

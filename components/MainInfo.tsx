@@ -26,12 +26,14 @@ export function MainInfo() {
         <Text color="brand.gray" textAlign="center" fontWeight="bold" px="4">
           Tecnologia - Consciência Social - Desenvolvimento Profissional
         </Text>
-        <Button href="https://www.sympla.com.br/wonder-tech-2022__1567456" target="_blank">Participar</Button>
+        <Button href="https://youtu.be/bjVWrgSvpxM" target="_blank">Assistir a transmissão online</Button>
         <Flex direction={["column", "row-reverse"]} px="6" gap={["4", "16"]}>
           <HorizontalInfo
             icon={HiLocationMarker}
             title="Endereço"
             content="Rua Pascoal Pais, 525 - 3 e 4° andar Brooklin, São Paulo"
+            isLink
+            href="https://goo.gl/maps/jeNFU1Q2rPuLsRiW9"
           />
           <HorizontalInfo
             icon={HiCalendar}
