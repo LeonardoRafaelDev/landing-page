@@ -26,7 +26,7 @@ export function MainInfo() {
         <Text color="brand.gray" textAlign="center" fontWeight="bold" px="4">
           Tecnologia - Consciência Social - Desenvolvimento Profissional
         </Text>
-        <Button href="https://youtu.be/bjVWrgSvpxM" target="_blank">Assistir a transmissão online</Button>
+        <Button href="https://aka.ms/Checkin.WonderTech2020" target="_blank">Fazer inscrição online</Button>
         <Flex direction={["column", "row-reverse"]} px="6" gap={["4", "16"]}>
           <HorizontalInfo
             icon={HiLocationMarker}
